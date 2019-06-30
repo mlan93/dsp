@@ -86,14 +86,18 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **Probability that Elvis was an identical twin given that he was a twin:**
+Notation: P(Ti) is the probability of identical twin and P(Tf) is the probability of fraternal twin.
+P(Ti|Tf or Ti) = (P(Tf or Ti|Ti) * P(Ti))/(P(Tf) + P(Ti)) = (1 * 1/300) / (1/125 + 1/300) = 29.41%
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist and Bayesian statistics differ in their approaches. For a frequentist inference, the hypothesis is assumed to be true, with any observed data following the distribution of that hypothesis. As such, a frequentist inference never uses or gives the probability of a hypothesis occuring and does not rely on having a prior. Statistical measures like p-values and confidence intervals fall under a frequentist approach.
+
+A Bayesian inference, on the other hand, always uses the probability of its hypotheses and requires a prior (a prior distribution on the parameter of interest), which is usually a subjective method (unless already known, which is rare). Also, due to the necessity of integrating over many parameters under a Bayesian approach, Bayesian inferences are generally more computationally intensive than frequentist inferences.
 
 ---
 
