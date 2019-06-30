@@ -97,7 +97,7 @@ How do frequentist and Bayesian statistics compare?
 
 >> Frequentist and Bayesian statistics differ in their approaches. For a frequentist inference, the hypothesis is assumed to be true, with any observed data following the distribution of that hypothesis. As such, a frequentist inference never uses or gives the probability of a hypothesis occuring and does not rely on having a prior. Statistical measures like p-values and confidence intervals fall under a frequentist approach.
 
-A Bayesian inference, on the other hand, always uses the probability of its hypotheses and requires a prior (a prior distribution on the parameter of interest), which is usually a subjective method (unless already known, which is rare). Also, due to the necessity of integrating over many parameters under a Bayesian approach, Bayesian inferences are generally more computationally intensive than frequentist inferences.
+>>A Bayesian inference, on the other hand, always uses the probability of its hypotheses and requires a prior (a prior distribution on the parameter of interest), which is usually a subjective method (unless already known, which is rare). Also, due to the necessity of integrating over many parameters under a Bayesian approach, Bayesian inferences are generally more computationally intensive than frequentist inferences.
 
 ---
 
